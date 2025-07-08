@@ -10,6 +10,9 @@ public class Main3 {
 
         livre[2]=new Livre("ksskss","dpdpdpdp","ncncncnc");
 
+        livre[0].setTitre("Animal Farmjdjdkdkdkd");
+        
+
         for (int i = 0; i < livre.length; i++) {
             livre[i].afficherInfos();
         }
